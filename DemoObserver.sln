@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoObserver03", "DemoObser
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Optimisation délégué", "04 Optimisation délégué", "{650BC727-5FD7-4141-8EC6-705BDA20C771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoObserver04", "DemoObserver04\DemoObserver04.csproj", "{2E11A275-EDAC-4FD0-97F5-8726C7B18E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoObserver04", "DemoObserver04\DemoObserver04.csproj", "{2E11A275-EDAC-4FD0-97F5-8726C7B18E1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Implémentation Finale", "05 Implémentation Finale", "{A18B2F2F-E1A7-44E8-B30C-5AEA0F267B82}"
 EndProject
@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoObserver05", "DemoObser
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer And MVVM", "Observer And MVVM", "{FC583FC5-D790-46E4-95E0-B9F313661E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverAndMvvm", "ObserverAndMvvm\ObserverAndMvvm.csproj", "{EA23B97D-440F-4AAC-B1FD-9968D7AE6786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverAndMvvm", "ObserverAndMvvm\ObserverAndMvvm.csproj", "{EA23B97D-440F-4AAC-B1FD-9968D7AE6786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Mvvm", "Tools.Mvvm\Tools.Mvvm.csproj", "{099B5894-7746-4650-BE7C-4317DA255113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{EA23B97D-440F-4AAC-B1FD-9968D7AE6786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA23B97D-440F-4AAC-B1FD-9968D7AE6786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA23B97D-440F-4AAC-B1FD-9968D7AE6786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099B5894-7746-4650-BE7C-4317DA255113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099B5894-7746-4650-BE7C-4317DA255113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099B5894-7746-4650-BE7C-4317DA255113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099B5894-7746-4650-BE7C-4317DA255113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{2E11A275-EDAC-4FD0-97F5-8726C7B18E1F} = {650BC727-5FD7-4141-8EC6-705BDA20C771}
 		{AC912C25-9EEA-4CB5-AC00-A24692458D24} = {A18B2F2F-E1A7-44E8-B30C-5AEA0F267B82}
 		{EA23B97D-440F-4AAC-B1FD-9968D7AE6786} = {FC583FC5-D790-46E4-95E0-B9F313661E17}
+		{099B5894-7746-4650-BE7C-4317DA255113} = {FC583FC5-D790-46E4-95E0-B9F313661E17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {534D83AC-DFC5-4F72-B0A0-CF06FEE9CFCA}
